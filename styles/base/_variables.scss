@@ -7,9 +7,10 @@ $black: #000;
 $green: #6aac0e;
 $green-light: saturate($green, 10%);
 $blue: #3f9adc;
+$blue-light: saturate($blue, 10%);
 
 /* Theme colors */
-$primary: $green;
+$primary: $blue;
 $light: darken($white, 5%);
 $pre-background: $grey-light;
 
@@ -23,7 +24,7 @@ $text-title: lighten($black, 15%);
 $text-invert: findcolorinvert($text);
 $text-light: $grey;
 $text-strong: $grey-dark;
-$text-content-title: $green-light;
+$text-content-title: $blue-light;
 $text-link: $blue;
 
 /* Border colors */

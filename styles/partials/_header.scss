@@ -42,11 +42,10 @@
 }
 
 .title {
-  font-size: $size-4;
+  font-size: $size-3;
   font-family: $family-roboto;
   font-weight: $weight-bold;
   margin: 1rem auto;
-
   @media screen and (max-width: $tablet) {
     margin: 0 auto;
   }
@@ -59,7 +58,6 @@
 .subtitle {
   margin-bottom: 1rem;
   color: $white;
-  opacity: 0.8;
 }
 
 // Sidebar on desktop and header on mobile
@@ -79,13 +77,14 @@
     padding: 1rem 0;
 
     a {
-      font-weight: $weight-light;
+      font-weight: $weight-bold;
       opacity: .8;
       color: $white;
 
       &:focus,
       &:hover {
         opacity: 1;
+        font-weight: $weight-bold;
       }
     }
 
