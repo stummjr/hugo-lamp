@@ -105,7 +105,7 @@
     background-color: $light;
     border-left: 5px solid $border-color;
     padding: 0.5rem 1rem;
-    margin: 2rem 0;
+    margin: 0 0;
 
     p {
       margin-top: 0.5rem;
@@ -190,8 +190,6 @@
 
   ol {
     margin-left: 0;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     padding-left: 1.5rem;
     list-style: decimal outside;
 
